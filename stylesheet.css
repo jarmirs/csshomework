@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+.register {
+}
+.form {
+  background-color: black;
+  color: #ff69b4;
+  padding: 30px;
+  width: 100%; /* Full width */
+  height: 100%;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.container {
+  max-width: fit-content;
+  background-color: black;
+}
+.topnav {
+  background-color: black;
+  color: #ff69b4;
+  text-decoration: wavy;
+  font-size: large;
+}
+h1 {
+  text-align: center;
+  color: #ff69b4;
+  font-size: 48px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  padding: 30px;
+}
+h2 {
+  text-align: center;
+  color: #ff69b4;
+  font-size: 30px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+}
+p {
+  text-align: center;
+  color: #ff69b4;
+}
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #ff69b4;
+  color: black;
+  line-height: 30px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 14px rgba (0, 0, 0, 0.7);
+  transition: all 250ns ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

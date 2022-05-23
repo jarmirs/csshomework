@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💛🏀Basketball💙🏀</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+  </head>
+  <div class="topnav">
+    <a class="active" href="csshw.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">Account</a>
+  </div>
+  <div class="container">
+    <body>
+      <h1>I love Sports</h1>
+      <h2>Especially 🏀 Basketball 🏀</h2>
+      <img
+        src="https://shop.wilson.com/media/catalog/product/cache/38/image/9df78eab33525d08d6e5fb8d27136e95/c/7/c7dd204a5c8de77cfa036eb232a5e64659c7b2e1_WTB0516_Evolution_v2.jpg"
+        alt="basketball"
+      />
+      <br />
+      <p>
+        <strong>Basketball </strong>is a team sport in which two teams, most
+        commonly of five players each, opposing one another on a rectangular
+        court, compete with the primary objective of shooting a basketball
+        through the defender's hoop while preventing the opposing team from
+        shooting through their own hoop
+      </p>
+
+      <br />
+      <a href="https://en.wikipedia.org/wiki/Basketball" target="_blank"
+        >Learn More Here
+      </a>
+      <br />
+      <button class="joinButton">Join our team</button>
+      <br />
+      <footer>
+        <p>This page was built by <em>Jarmir Smith</em></p>
+      </footer>
+    </body>
+  </div>
+  <script>
+    function join() {
+      let name = prompt("What is your name?");
+      let email = prompt("What is your email address?");
+
+      alert("Thank you " + name + " we will be in touch!");
+    }
+    let joinButton = document.querySelector(".joinButton");
+    joinButton.addEventListener("click", join);
+  </script>
+</html>
